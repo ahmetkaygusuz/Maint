@@ -1,0 +1,3 @@
+C:\MyProject\Python\Maint\env\Scripts\activate.ps1
+
+uvicorn main:app --reload
