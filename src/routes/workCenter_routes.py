@@ -1,9 +1,9 @@
 from typing import List
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlmodel import Session, select
-from database import get_session
-from models.workCenter_models import WorkCenter
-from models.workCenter_schema import WorkCenterCreate, WorkCenterDTO
+from src.database import get_session
+from src.models.workCenter_models import WorkCenter
+from src.models.workCenter_schema import WorkCenterCreate, WorkCenterDTO
 
 
 router = APIRouter()
